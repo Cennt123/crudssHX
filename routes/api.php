@@ -21,3 +21,4 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/products', [ProductController::class, 'index']);
 Route::post('/create-product', [ProductController::class, 'store']);
+Route::delete('/products/{product}', [ProductController::class, 'delete']);

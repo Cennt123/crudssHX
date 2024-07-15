@@ -32,3 +32,4 @@ Route::get('/close-button', [ProductController::class, 'close'])->name('close.bu
 Route::get('/message', [ProductController::class, 'message'])->name('message');
 
 Route::get('/error', [ProductController::class, 'error'])->name('error');
+Route::get('/open-modal', [ProductController::class, 'open']);
